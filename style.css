@@ -320,7 +320,7 @@ section.bg_0 {
 }
 
 @media screen and (min-width:1024px) {
-    section.bg_0{
+    section.bg_0 {
         background-size: 100% 100%;
         background-position-x: right;
     }
@@ -347,6 +347,12 @@ section.steps .card.step-card {
 section.steps .card.step-card .card-body {
     align-content: center;
     text-align: left;
+}
+
+@media screen and (max-width:500px) {
+    section.steps .card.step-card .card-body p {
+        font-size: .9rem;
+    }
 }
 
 @media screen and (max-width:768px) {

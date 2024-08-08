@@ -314,9 +314,16 @@ nav a.btn-register:hover {
 
 section.bg_0 {
     background-image: url('./src/img/bg_hero_1x.webp');
-    background-size: 100% 100%;
-    background-position-x: right;
+    /* background-size: 100% 100%; */
+    background-position-x: center;
     background-repeat: no-repeat;
+}
+
+@media screen and (min-width:1024px) {
+    section.bg_0{
+        background-size: 100% 100%;
+        background-position-x: right;
+    }
 }
 
 section.bg_0 main>.container {

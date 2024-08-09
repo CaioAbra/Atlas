@@ -71,6 +71,15 @@ body {
     background: var(--color-bg-main);
 }
 
+.container {
+    @media screen and (max-width:768px) {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    ;
+}
+
 section.hero {
     background-image: url('./src/img/background/bg-hero.webp');
     background-position-x: 30%;
@@ -846,6 +855,7 @@ a.btn.acount {
     transition: max-height 0.5s ease, padding 0.5s ease;
     display: none;
     color: var(--color-accordion-body);
+    font-size: .9rem;
 }
 
 .accordion h2,

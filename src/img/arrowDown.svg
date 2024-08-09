@@ -1,0 +1,16 @@
+<svg width="22" height="13" viewBox="0 0 22 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g transform="rotate(180, 11, 6.5)">
+        <!-- Aplica a rotação -->
+        <path
+            d="M10.3604 12.4502L1.21973 3.35645C0.797852 2.8877 0.797852 2.18457 1.21973 1.7627L2.29785 0.68457C2.71973 0.262695 3.42285 0.262695 3.8916 0.68457L11.1572 7.90332L18.376 0.68457C18.8447 0.262695 19.5479 0.262695 19.9697 0.68457L21.0479 1.7627C21.4697 2.18457 21.4697 2.8877 21.0479 3.35645L11.9072 12.4502C11.4854 12.8721 10.7822 12.8721 10.3604 12.4502Z"
+            fill="url(#paint0_linear_29_729)" />
+    </g>
+    <defs>
+        <linearGradient id="paint0_linear_29_729" x1="6.32521" y1="75.4696" x2="29.4852" y2="73.1636"
+            gradientUnits="userSpaceOnUse">
+            <stop offset="0.0257812" stop-color="#DC8432" />
+            <stop offset="0.345781" stop-color="#BA4C0E" />
+            <stop offset="1" stop-color="#F0A647" />
+        </linearGradient>
+    </defs>
+</svg>

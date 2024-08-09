@@ -833,7 +833,7 @@ a.btn.acount {
 .accordion-header {
     cursor: pointer;
     padding: 1.25rem;
-    font-size: 14px;
+    font-size: 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;

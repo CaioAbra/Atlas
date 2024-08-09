@@ -349,6 +349,10 @@ section.mockUp h2 {
     text-align: center;
     color: rgba(255, 255, 255, 1);
 
+    @media screen and (max-width:768px) {
+        font-size: 24px;
+    }
+
 }
 
 section.opnions h2 {
@@ -631,8 +635,18 @@ section.steps .card.step-card .card-body {
 
 @media screen and (max-width:768px) {
     section.steps .card.step-card .card-body {
-        padding-left: 1rem !important;
+        padding-left: 2.5rem !important;
+        padding-right: 1.7rem !important
     }
+}
+
+@media screen and (min-width: 500px) and (max-width: 760px) {
+
+    section.steps .card.step-card .card-body {
+        padding-left: 7rem !important;
+        padding-right: 7rem !important;
+    }
+
 }
 
 @media screen and (max-width:500px) {
